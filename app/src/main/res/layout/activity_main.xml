@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="specialist details"
+        android:id="@+id/bt1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="hospital details"
+        android:id="@+id/bt2"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="contact person details"
+        android:id="@+id/bt3"
+        />
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:text="search globally"
+    android:id="@+id/bt4"
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Offline Phone Numbers"
+        android:id="@+id/bt5"
+        />
+
+
+</LinearLayout>
+
+</RelativeLayout>
